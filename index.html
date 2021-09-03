@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <script src="./index.js"></script>
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="./index.html" > Inicio </a>
+
+                <a class="navbar-item" onclick="loadAprende()" > Aprende </a>
+
+                <a class="navbar-item" onclick="loadOperaciones()"> Operaciones </a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="columns is-desktop">
+        <div class="column is-one-fifth" style="background-color: aliceblue"></div>
+        <div id="demo">
+            <div class="column">
+                <div class="content">
+                    <h1 class="title" style="margin-top: 20px;text-align: center; font-weight: bold;">Aprende y
+                        diviertete
+                        con las
+                        matematicas</h1>
+                    <figure class="image">
+                        <img src="./Imagenes/10799.jpg">
+                    </figure>
+                    <p style="text-align: justify;">Curabitur accumsan turpis pharetra augue tincidunt blandit. Quisque
+                        condimentum maximus mi, sit amet
+                        commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam
+                        mattis
+                        sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.<br>Quisque at
+                        semper
+                        enim, eu hendrerit odio. Etiam auctor nisl et justo sodales elementum. Maecenas ultrices lacus
+                        quis
+                        neque consectetur, et lobortis nisi molestie.
+
+                        Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in
+                        luctus.
+                        Maecenas vestibulum interdum commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-fifth" style="background-color: aliceblue"></div>
+    </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by
+                <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
+                licensed. Agner le metio mano para pasar programacion web
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

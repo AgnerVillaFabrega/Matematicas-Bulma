@@ -1,0 +1,27 @@
+<div class="field has-addons">
+                <div class="control">
+                    <input class="input" id="numero1" type="number" placeholder="Numero 1">
+                    <div class="control">
+                        <div class="select" >
+                            <select id="operacionSelccionada">
+                                <option>+</option>
+                                <option>-</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="input" id="numero2" type="number" placeholder="Numero 2">
+                    <label>=</label>
+                    <input class="input" id="resultado" type="number">
+                </div>
+            </div>
+
+            <input class="input id="numero1" type="number" />
+                    <select name="" id="operacionSelccionada">
+                        <option>+</option>
+                        <option>-</option>
+                    </select>
+                    <input class="input id="numero2" type="number" />
+                    <label>&equals;</label>
+                    <input id="resultado" type="number" />
+                    <button  class="button is-info" type="button" onclick="operacion()">Calcular</button>
+                    
